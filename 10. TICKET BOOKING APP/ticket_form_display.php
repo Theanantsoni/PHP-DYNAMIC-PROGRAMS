@@ -170,7 +170,7 @@
 				<td>
 					<font>
 						<?php
-							echo $price;
+							echo $price*$cnt;
 						?>
 					</font>
 				</td>
