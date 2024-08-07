@@ -40,7 +40,7 @@
 	<input type="text" name="txtpin1" size="30" placeholder="Enter Your Friend's Area Pin Code No." style="background-color:#ffc0c0;  padding: 10px 20px; margin: 4px 2px; cursor:space;  font-size: 15px;"> <br><br>
 
 	<label style="color:red; font-size:30px;">Enter Your Friend Email : </label>
-	<input type="text" name="txtemail" size="30" placeholder="Em=nter Your Friend Email" style="background-color:#ffc0c0;  padding: 10px 20px; margin: 4px 2px; cursor:space;  font-size: 15px;"> <br><br>
+	<input type="text" name="txtemail" size="30" placeholder="Enter Your Friend Email" style="background-color:#ffc0c0;  padding: 10px 20px; margin: 4px 2px; cursor:space;  font-size: 15px;"> <br><br>
 
 	<label style="color:red; font-size:30px;">Today's Date : </label>
 	<input type="text" name="txtdte" size="30" placeholder="Enter Today's Date" style="background-color:#ffc0c0;  padding: 10px 20px; margin: 4px 2px; cursor:space;  font-size: 15px;"> <br><br>
