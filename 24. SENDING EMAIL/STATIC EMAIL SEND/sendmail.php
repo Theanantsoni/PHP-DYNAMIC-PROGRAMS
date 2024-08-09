@@ -11,7 +11,7 @@ $mail = new PHPMailer(true);
 $message = '';
 $alertType = '';
 
-$email = 'mranantsoni@gmail.com';
+$email = 'ABC@gmail.com';
 $subject = 'Test Email from PHP';
 $body = 'Hello, this is a test email sent from a PHP script!';
 $altbody = 'Hello, this is a test email sent from a PHP script in plain text!';
@@ -21,13 +21,13 @@ try {
     $mail->isSMTP();
     $mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
     $mail->SMTPAuth = true;          // Enable SMTP authentication
-    $mail->Username = 'mranantsoni@gmail.com';   // SMTP username
-    $mail->Password = 'wgjxuvlsxdkaeard';   // SMTP password
+    $mail->Username = 'ABC@gmail.com';   // SMTP username
+    $mail->Password = '';   // SMTP password
     $mail->SMTPSecure = 'tls';      // Enable TLS encryption, `ssl` also accepted
     $mail->Port = 587;              // TCP port to connect to
 
     //Recipients
-    $mail->setFrom('mranantsoni7@gmail.com', 'Anant Soni');
+    $mail->setFrom('ABC@gmail.com', 'Anant Soni');
     $mail->addAddress($email, 'Soni anant r');     // Add a recipient
 
     //Content
