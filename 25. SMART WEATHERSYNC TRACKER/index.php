@@ -83,7 +83,7 @@
         <?php
         if (isset($_POST['submit'])) {
             $location = htmlspecialchars($_POST['location']);
-            $apiKey = 'd4565d4bc2f14d94b65124141240908'; // Your WeatherAPI key
+            $apiKey = ''; // Your WeatherAPI key
             $apiUrl = "http://api.weatherapi.com/v1/current.json?key={$apiKey}&q={$location}&aqi=no";
 
             $weatherData = file_get_contents($apiUrl);
